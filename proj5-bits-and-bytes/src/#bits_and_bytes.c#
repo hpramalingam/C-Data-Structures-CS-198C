@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+void print_it() {
+  // TODO
+  printf("Bit operations are fun!\n");
+}
+
+void print_int() {
+  // TODO
+  signed int x = 10;
+  signed int y = 13;
+  printf("x = %d\n", x);
+  printf("y = %d\n", y);
+  printf("size of signed int in bytes is %d\n", sizeof(x));
+  printf("size of signed int in bites is %d\n", sizeof(y)*8);
+  printf("%d + %d = %d\n", x, y, x+y);
+}
+
+void print_float() {
+  // TODO
+  float x = 10.000000;
+  float y = 13.000000;
+  printf("x = %f\n", x);
+  printf("y = %f\n", y);
+  printf("size of single float in bytes is %f\n", sizeof(x));
+  printf("size of single float in bits is %f\n", sizeof(y)*8);
+  printf("%f + %f = %f\n", x, y, x+y);
+  printf("%f + %f = %d\n", x, y, x+y); 
+}
+
+void print_char() {
+  // TODO
+  char c = 'C';
+  char a = 65;
+  
+  printf("c = %c\n", c);
+  printf("a = %c\n", a);
+  
+  
+}
+
+void packing_bytes() {
+  // TODO
+  printf("TODO\n");
+}
+
+void unpacking_bytes() {
+  // TODO
+  printf("TODO\n");
+}
+
+void print_bits() {
+  // TODO
+  printf("TODO\n");
+}
+
+void extracting_fields() {
+  // TODO
+  printf("TODO\n");
+}
+
+void updating_fields() {
+  // TODO
+  printf("TODO\n");
+}
